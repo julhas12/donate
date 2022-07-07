@@ -99,7 +99,7 @@ body {
 .card-section {
     padding-top: 75px;
 }
-.card-header h1,p{
+.card-header{
     text-align: center;
     margin-bottom:25px ;
 }
@@ -137,12 +137,38 @@ body {
     margin-bottom: -10px;
    
 }
-.card-itames1 h3{
+.card-itames-header{
     padding-left: 15px;
 }
-.card-itames2 h3{
-    padding-left: 15px;
+
+.about-top{
+    display:flex;
+    margin:  10% 15%;
 }
-.card-itames3 h3{
-    padding-left: 15px;
+.left-side a{
+    text-decoration: none;
+}
+.right-side img{
+    width: 90% ;
+    margin-left: 10%;
+}
+.about-bottom{
+    display:flex;
+    margin: 10% 15%;
+}
+.botob-left-side a{
+    text-decoration: none;
+}
+.bottom-right-side img{
+    width: 90% ;
+    margin: 0 5%;
+}
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 25px;
 }
