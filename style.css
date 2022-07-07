@@ -5,9 +5,25 @@ body {
     box-sizing: border-box;
 }
 
+.common-heading {
+    font-size: 50px;
+    line-height: 1.5rem;
+}
+
+.common-paragraph {
+    margin: 50px;
+    font-size: 15px;
+}
+
+.common-btn {
+    background-image: linear-gradient(to right, rgba(0, 170, 255, 0.755), rgba(255, 0, 238, 0.722));
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 .banner-section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 00.5)), url(./images/donation5.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/donation5.jpg);
     background-size: cover;
     position: center;
     padding: 0px 10px;
@@ -15,13 +31,8 @@ body {
     color: #fff;
     background-repeat: no-repeat;
     width: auto;
-    height: 70vh;
+    height: 65vh;
     text-align: center;
-}
-
-.banner-container h1 {
-    font-size: 50px;
-    line-height: 1.5rem;
 }
 
 .banner-container a {
@@ -29,14 +40,109 @@ body {
     color: #fff;
 }
 
-.banner-container p {
-    margin: 50px;
-    font-size: 15px;
+
+.donat-section {
+    text-align: center;
 }
-.donate-btn{
-    background-image: linear-gradient(to right,rgb(238, 200, 8),rgba(228, 0, 0, 0.776));
-    padding: 10px;
-    border-radius: 10px;
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    padding: 30px 50px;
+    margin-bottom: 25px;
 
 
+}
+
+.btn-container a {
+
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    padding: 20px;
+
+}
+
+.btn-itemes {
+    background-color: rgba(117, 112, 112, 0.289);
+    color: rgba(0, 0, 0, 0.804);
+    border-radius: 7px;
+    font-weight: 900;
+    font-size: larger;
+}
+
+.active-bg {}
+
+.active-btn {
+    background-color: rgba(239, 40, 5, 0.179);
+    color: tomato;
+    font-size: larger;
+    font-weight: 900;
+    border: 2px solid tomato;
+    border-radius: 7px;
+}
+
+.more-many {
+    margin: 0 17%;
+    margin-bottom: 10px;
+
+}
+
+.more-many a {
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.card-section {
+    padding-top: 75px;
+}
+.card-header h1,p{
+    text-align: center;
+    margin-bottom:25px ;
+}
+
+.card-container{
+    display: flex;
+}
+
+.card-itames1{
+    width: 30%;
+    height: 350px;
+    background-color: rgba(5, 4, 4, 0.353);
+    margin-left: 30px;
+}
+
+.card-itames2 {
+    width: 30%;
+    height: 350px;
+    background-color: rgba(239, 212, 89, 0.549);
+    margin-left: 30px;
+   
+}
+
+.card-itames3 {
+    width: 30%;
+    height: 350px;
+    background-color: rgba(50, 206, 167, 0.531);
+    margin:0 30px 0 30px;
+    
+}
+.card-img{
+    width: 15%;
+    height: 30%;
+    padding: 15px 0 0 10px;
+    margin-bottom: -10px;
+   
+}
+.card-itames1 h3{
+    padding-left: 15px;
+}
+.card-itames2 h3{
+    padding-left: 15px;
+}
+.card-itames3 h3{
+    padding-left: 15px;
 }
