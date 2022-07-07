@@ -172,3 +172,23 @@ footer{
     padding-top: 30px;
     margin-top: 25px;
 }
+.top-side{
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+}
+.top-side h1{
+    color: tomato;
+    font-size: 25px;
+}
+.bottom-side{
+    display: flex;
+    background-color: rgba(255, 99, 71, 0.356);
+    width: 40%;
+    margin: 0 auto;
+    padding: 50px;
+}
+.suscribe-div{
+    background-color: tomato;
+}
